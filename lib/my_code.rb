@@ -35,7 +35,7 @@ end
 
 def reduce_to_total(arr, start)
   i = 0
-  if start
+  if start == true
     total = start
   else
     total = 0
