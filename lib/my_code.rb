@@ -33,14 +33,12 @@ def map_to_square(arr)
   new_arr
 end
 
-def reduce_to_total(arr)
+def reduce_to_total(arr, start)
   i = 0
-  total = 0
+  total = start
   while i < arr.length do
     total += arr[i]
     i += 1
   end
   total
 end
-
-def 
